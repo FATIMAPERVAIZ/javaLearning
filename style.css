@@ -1,0 +1,14 @@
+.change {
+    border: 10px solid black; /* Original border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+    padding: 10px; /* Padding inside the border */
+    background-color: #f9f9f9; /* Light background color */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.change:hover {
+    border-color: #007BFF; /* Change border color on hover */
+    background-color: #e9ecef; /* Change background color on hover */
+    transform: scale(1.05); /* Slightly enlarge the element on hover */
+}
